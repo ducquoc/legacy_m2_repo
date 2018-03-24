@@ -8,8 +8,13 @@ pom.xml
 </repository>
 ```
 
-(or `setttings.xml` mirrors)
+(or `setttings.xml` mirrors, see: http://maven.apache.org/guides/mini/guide-multiple-repositories.html , https://maven.apache.org/guides/mini/guide-mirror-settings.html )
 
 Originally this is for my internal projects or testing purpose. I don't claim any responsibility for other people usage.
 
+
+```
+   find . -name "*.jar" -type f > file-listing.txt
+   git add . && git commit -a -m "added jar javax mail 1.3.3" && git push 
+```
 
