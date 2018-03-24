@@ -4,7 +4,8 @@ pom.xml
 ```
 <repository>
     <id>legacy-releases-temp-repository</id>
-    <url>https://github.com/ducquoc/legacy_m2_repo/tree/master/release</url>
+    <url>https://github.com/ducquoc/legacy_m2_repo/raw/master/release</url>
+    <!--<url>https://raw.github.com/ducquoc/legacy_m2_repo/master/release</url>-->
 </repository>
 ```
 
