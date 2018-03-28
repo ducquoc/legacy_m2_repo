@@ -48,6 +48,7 @@ GIT_STATUS_DIRTY=$(git status --porcelain)
 if [ ! -z "$GIT_STATUS_DIRTY" ]; then
   echo You scared me, man!
   find . -name "*.jar" -type f > file-listing.txt
-  git add . && git commit -a -m "added Jar $EXISTING_PATH " && git push 
+  git add . && git commit -a -m "added Jar $JAR_DIRNAME $TARGET_JAR " && git push 
 fi
 cd -
+
