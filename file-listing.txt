@@ -7,4 +7,5 @@
 ./release/javax/jms/jms/1.1/jms-1.1.jar
 ./release/javax/mail/mail/1.3.3/mail-1.3.3.jar
 ./release/javax/sql/jdbc-stdext/2.0/jdbc-stdext-2.0.jar
+./release/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar
 ./release/net/tqh/plugins/uglifyjs-maven-plugin/1.0/uglifyjs-maven-plugin-1.0.jar
