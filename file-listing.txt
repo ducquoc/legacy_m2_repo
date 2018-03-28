@@ -1,6 +1,7 @@
 ./release/com/oracle/ojdbc14/10.2.0.3.0/ojdbc14-10.2.0.3.0.jar
 ./release/com/smartgwt/smartgwt/2.5/smartgwt-2.5.jar
 ./release/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar
+./release/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar
 ./release/javax/activation/activation/1.0.2/activation-1.0.2.jar
 ./release/javax/jms/jms/1.1/jms-1.1.jar
 ./release/javax/mail/mail/1.3.3/mail-1.3.3.jar
