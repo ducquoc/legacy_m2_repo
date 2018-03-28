@@ -19,3 +19,9 @@ Originally this is for my internal projects or testing purpose. I don't claim an
    git add . && git commit -a -m "added jar javax mail 1.3.3" && git push 
 ```
 
+or
+
+```
+   ./dq_add_commit_push.sh ojdbc14-10.2.0.3.0.jar
+```
+
