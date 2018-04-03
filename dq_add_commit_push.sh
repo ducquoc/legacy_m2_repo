@@ -46,7 +46,7 @@ fi
 cd "$BASEDIR"
 GIT_STATUS_DIRTY=$(git status --porcelain)
 if [ ! -z "$GIT_STATUS_DIRTY" ]; then
-  echo -e " \n You scared me, man! \n "
+  echo -e " \n Updating file-listing and pushing to remote! \n "
   find . -name "*.jar" -type f > file-listing.txt
   git add . && git commit -a -m "added Jar $JAR_DIRNAME $TARGET_JAR " && git push 
 fi
