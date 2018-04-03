@@ -3,8 +3,8 @@
 BASEDIR=`dirname "$0"`
 BASEDIR=`(cd "$BASEDIR"; pwd)`
 
-M2_REPO=/d/repository
-#M2_REPO=~/.m2/repository
+CUSTOM_M2_REPO=/d/repository
+M2_REPO=~/.m2/repository
 M2_REPO=`(cd "$M2_REPO"; pwd)`
 
 #echo Absolute basedir: $BASEDIR - and repo: $M2_REPO
@@ -19,7 +19,7 @@ else
 fi
 
 EXISTING_PATH=$(find "$BASEDIR" -name $TARGET_JAR -type f)
-EXISTING_M2_REPO=$(find "$M2_REPO" -name $TARGET_JAR -type f)
+EXISTING_M2_REPO=$(find "$M2_REPO" "CUSTOM_M2_REPO" -name $TARGET_JAR -type f)
 #EXISTING_M2_REPO=/d/repository/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar
 
 if [ ! -z $EXISTING_M2_REPO ]; then

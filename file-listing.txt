@@ -9,5 +9,6 @@
 ./release/com/oracle/ojdbc14/10.2.0.3.0/ojdbc14-10.2.0.3.0.jar
 ./release/com/oracle/jdbc/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.jar
 ./release/com/oracle/jdbc/ucp/12.2.0.1/ucp-12.2.0.1.jar
+./release/com/smartgwt/smartgwt/2.5/smartgwt-2.5.jar
 ./release/com/bea/xml/jsr173-ri/1.0/jsr173-ri-1.0.jar
 ./release/net/tqh/plugins/uglifyjs-maven-plugin/1.0/uglifyjs-maven-plugin-1.0.jar
