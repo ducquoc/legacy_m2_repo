@@ -19,12 +19,13 @@ else
 fi
 
 EXISTING_PATH=$(find "$BASEDIR" -name $TARGET_JAR -type f)
-EXISTING_M2_REPO=$(find "$M2_REPO" "CUSTOM_M2_REPO" -name $TARGET_JAR -type f)
+EXISTING_M2_REPO=$(find "$M2_REPO" "$CUSTOM_M2_REPO" -name $TARGET_JAR -type f)
 #EXISTING_M2_REPO=/d/repository/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar
 
 if [ ! -z $EXISTING_M2_REPO ]; then
-  echo Found in repo: $EXISTING_M2_REPO
+  #echo Found in repo: $EXISTING_M2_REPO
   JAR_PATH=${EXISTING_M2_REPO#$M2_REPO}
+  JAR_PATH=${JAR_PATH#$CUSTOM_M2_REPO}
   #echo jar path $JAR_PATH
   JAR_PATH_DIR=${JAR_PATH%$TARGET_JAR}
   #echo jar path dir $JAR_PATH_DIR

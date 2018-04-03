@@ -9,9 +9,9 @@ pom.xml
 </repository>
 ```
 
-(or `setttings.xml` mirrors, see: http://maven.apache.org/guides/mini/guide-multiple-repositories.html , https://maven.apache.org/guides/mini/guide-mirror-settings.html )
+(or `settings.xml` mirrors, see: http://maven.apache.org/guides/mini/guide-multiple-repositories.html , https://maven.apache.org/guides/mini/guide-mirror-settings.html )
 
-Originally this is for my internal projects or testing purpose. I don't claim any responsibility for other people usage.
+Originally this is for my internal projects or experiment purpose. I don't claim any responsibility for other people usage.
 
 
 ```
@@ -24,4 +24,8 @@ or
 ```
    ./dq_add_commit_push.sh ojdbc14-10.2.0.3.0.jar
 ```
+
+
+(Backlink: https://ducquoc.wordpress.com/2012/03/03/apache-maven-tips/ )
+
 
