@@ -19,4 +19,5 @@
 ./release/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar
 ./release/javax/xml/namespace/1.0.1/namespace-1.0.1.jar
 ./release/net/tqh/plugins/uglifyjs-maven-plugin/1.0/uglifyjs-maven-plugin-1.0.jar
+./release/sqlline/sqlline/1.1.8/sqlline-1.1.8-jar-with-dependencies.jar
 ./release/sqlline/sqlline/1.1.8/sqlline-1.1.8.jar
