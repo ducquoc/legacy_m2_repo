@@ -20,5 +20,6 @@
 ./release/javax/xml/namespace/1.0.1/namespace-1.0.1.jar
 ./release/net/tqh/plugins/uglifyjs-maven-plugin/1.0/uglifyjs-maven-plugin-1.0.jar
 ./release/oracle/ojdbc14_g/10.2.0.4/ojdbc14_g-10.2.0.4.jar
+./release/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar
 ./release/sqlline/sqlline/1.1.8/sqlline-1.1.8-jar-with-dependencies.jar
 ./release/sqlline/sqlline/1.1.8/sqlline-1.1.8.jar
