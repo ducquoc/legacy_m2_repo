@@ -2,6 +2,7 @@
 ./release/com/oracle/jdbc/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.jar
 ./release/com/oracle/jdbc/ucp/12.2.0.1/ucp-12.2.0.1.jar
 ./release/com/oracle/ojdbc14/10.2.0.3.0/ojdbc14-10.2.0.3.0.jar
+./release/com/oracle/ojdbc6/12.1.0.1/ojdbc6-12.1.0.1.jar
 ./release/com/smartgwt/smartgwt/2.5/smartgwt-2.5.jar
 ./release/com/smartgwt/smartgwt/2.5.0.20110728/smartgwt-2.5.0.20110728.jar
 ./release/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar
