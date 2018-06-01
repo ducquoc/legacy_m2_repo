@@ -3,9 +3,10 @@ Hosting some legacy dependencies which might not exist on Maven central anymore.
 pom.xml
 ```
 <repository>
-    <id>legacy-releases-temp-repository</id>
-    <url>https://github.com/ducquoc/legacy_m2_repo/raw/master/release</url>
-    <!--<url>https://raw.github.com/ducquoc/legacy_m2_repo/master/release</url>-->
+  <id>legacy-releases-temp-repository</id>
+  <url>https://github.com/ducquoc/legacy_m2_repo/raw/master/release/</url>
+  <!--<url>https://raw.github.com/ducquoc/legacy_m2_repo/master/release/</url>-->
+  <snapshots><enabled>false</enabled></snapshots>
 </repository>
 ```
 

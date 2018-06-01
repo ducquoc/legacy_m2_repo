@@ -45,10 +45,9 @@ if [ ! -z $EXISTING_M2_REPO ]; then
 fi
 
 cd "$BASEDIR"
+#git pull --rebase
 GIT_STATUS_DIRTY=$(git status --porcelain)
 if [ ! -z "$GIT_STATUS_DIRTY" ]; then
-  echo -e " \n Updating git before pushing to remote! \n "
-  git pull --rebase
   echo -e " \n Updating file-listing and pushing to remote! \n "
   find . -name "*.jar" -type f > file-listing.txt
   git add . && git commit -a -m "added Jar $JAR_DIRNAME $TARGET_JAR " && git push 
