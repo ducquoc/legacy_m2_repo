@@ -25,6 +25,7 @@
 ./release/com/smartgwt/smartgwt/2.5.0.20110728/smartgwt-2.5.0.20110728.jar
 ./release/com/smartgwt/smartgwt/2.5/smartgwt-2.5.jar
 ./release/com/typesafe/netty/netty-http-pipelining/1.1.2/netty-http-pipelining-1.1.2.jar
+./release/com/ibm/ws/security/crypto/crypto/9.0.5.1/crypto-9.0.5.1.jar
 ./release/com/ibm/ws/admin/client/client/9.0.5.1/client-9.0.5.1.jar
 ./release/com/ibm/ws/orb/orb/9.0.5.1/orb-9.0.5.1.jar
 ./release/com/bea/xml/jsr173-ri/1.0/jsr173-ri-1.0.jar
