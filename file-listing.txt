@@ -1,4 +1,5 @@
 ./release/net/tqh/plugins/uglifyjs-maven-plugin/1.0/uglifyjs-maven-plugin-1.0.jar
+./release/net/ducquoc/linecount-maven-plugin/1.4.8/linecount-maven-plugin-1.4.8.jar
 ./release/oracle/ojdbc14_g/10.2.0.4/ojdbc14_g-10.2.0.4.jar
 ./release/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar
 ./release/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar
